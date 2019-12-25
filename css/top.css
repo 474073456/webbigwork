@@ -1,0 +1,116 @@
+	.bgc{
+		width: 100%;
+		height: 350px;
+	}
+	.box2{
+		display: inline-block;
+		width: 100%;
+		height: 350px;
+		position:relative;
+	}
+	.box2>a{
+		text-decoration: none;
+		color: white;
+	}
+	.jieshao{
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		top: 0px;
+		width: 250px;
+		display: inline-block;
+		height: 70px;
+		background: rgba(0,0,0,0.4);
+	}
+	.jieshao1{
+		border: 0 solid none;
+		position: absolute;
+		z-index: 1;
+		left: 250px;
+		top: 0px;
+		width: 1270px;
+		background: rgba(0,0,0,0.4);
+		height: 70px;
+	}
+	.head-nav-title{
+		font-size: 18px;
+		color: white;
+	}
+	.head-nav-subtitle{
+		font-size: 13px;
+		font-weight: lighter;
+		color: lightgrey;
+	}
+	.lol{
+		display: block;
+		float: left;
+		padding-top: 5px;
+		padding-left:50px;
+	}
+	.ui{
+        height:50px;
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    .ui li{
+        width:200px;
+        margin:0 10px;
+        display: inline-block;
+    }
+    .ui li a{
+        width:100px;
+        height:50px;
+        padding:0 20px;
+        padding-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+		color: white;
+    }
+    .xiahua{
+    	width: 100%;
+		height: 220px;
+		background: rgba(0,0,0,0.4);
+		position: absolute;
+		top: 70px;
+		display: none;
+	}
+	.xiahua11{
+		width: 100%;
+		height: 220px;
+		background: rgba(0,0,0,0.4);
+		position: absolute;
+		top: 70px;
+		display: block;
+	}
+	.box11{
+		width: 1300px;
+		height: 230px;
+		padding-left: 220px;
+	}
+	.xiahua1{
+		display: inline-block;
+		width: 215px;
+		height: 230px;
+	}
+	.xiahua1 li{
+		text-align: center;	
+        line-height: 20px;
+	}
+	.xiahua1 li a{
+		width:130px;
+        height:25px;
+        padding-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+		color: white;
+	}
+	.xiahua1 li:hover a{
+		color: rgb(233, 192, 108);
+	}
+	.jieshao1 li:hover .head-nav-title{
+		color: rgb(233, 192, 108);
+	}
+	.jieshao1 li:hover .head-nav-subtitle{
+		color: rgb(233, 192, 108);
+	}
